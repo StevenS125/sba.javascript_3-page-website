@@ -20,7 +20,7 @@ function addMoreFacts() {
    for (let i = 0; i < data.length; i++) {
        const element = data[i];
        $('.grid-container').prepend(
-        `<div class="card align-items-center" style="margin:10px">
+        `<div class="card align-items-center animate__animated animate__fadeInUp" style="margin:10px">
        <div class="card-body">
           <h5 class="card-title text-center align-items-center">${element.type.charAt(0).toUpperCase() + element.type.slice(1)} Fact</h5>
          <p class="card-text">${element.text}</p>
