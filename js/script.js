@@ -121,5 +121,3 @@ function addMoreDogFacts() {
     console.error('There has been a problem with your fetch operation:', error);
   });
 }
-
-window.onload(addMoreFacts())
