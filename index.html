@@ -9,9 +9,20 @@
   <title>SBA Assessment Home Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="./css/style.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
 
   <!-- Import Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <style>
+
+    .formContainer h2 {
+      text-align: center;
+    }
+
+  </style>
 
 </head> <!-- header ends here -->
 
@@ -40,14 +51,54 @@
     <!-- Content here -->
     <main>
       <div class="heading">
-        <h1 style="color:#037bfe; font-family: 'Work Sans', sans-serif;">Welcome to our Random Dog </h1>
-        <h1 style="color:#037bfe; font-family: 'Work Sans', sans-serif;">and Cat Facts Generator Page</h1>
-        <div><button class="btn btn-primary" onclick=addMoreFacts()>New Random Dog and Cat Facts</button></div>
-        <img class="heroImg" src="https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="cat and dog background" />
+        <h1 class="animate__animated animate__fadeInDown" style="color:#037bfe; font-family: 'Work Sans', sans-serif;">Welcome to our Random Dog </h1>
+        <h1 class="animate__animated animate__fadeInRightBig" style="color:#037bfe; font-family: 'Work Sans', sans-serif;">and Cat Facts Generator Page</h1>
+        <div><button class="btn btn-primary animate__animated animate__fadeInLeftBig" onclick=addMoreFacts()>Click For More Dog and Cat Facts</button></div>
+        <img  class="heroImg animate__animated animate__fadeInUp" src="https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="cat and dog background" />
+      </div>
+      <div style="width:50%" class="tableContainer">
+        <table>
+          <tr>
+            <th>Total Cat Facts</th>
+            <th>Total Dog Facts</th>
+          </tr>
+          <tr>
+            <td id="catColumn"></td>
+            <td id="dogColumn"></td>
+          </tr>
+        </table>
       </div>
     <div class="grid-container">
     </div>
     </main>
+
+    <div class="formContainer">
+    <h2>Sign Up for Our Animal Facts Newsletter!</h2>
+    <form >
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault01">Name</label>
+          <input type="text" class="form-control" id="validationDefault01" value="" placeholder="Please Enter Full Name" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault02">Email Address</label>
+          <input type="text" class="form-control" id="validationDefault02" value="" placeholder="Please Enter Email Address" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label>
+        </div>
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+    <br>
+    <iframe width="964" height="723" src="https://www.youtube.com/embed/QJ4rhguwoyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
   </div>
 
