@@ -1,8 +1,13 @@
 # AD - SBA - HTML/CSS/JavaScript
 
+* Access my site by navigating to the following link: https://stevens125.github.io/index.html
+
+### Objective
+* This site showcases my use of html,css and javascript elements.
+* The technologies used in this assignment include html, css, bootstrap, Javascript and JQuery
+* I had the Dog and Cat Lover in Mind where the User can interact and find interesting dog and cat facts with the click of a button which were provided by calling the excellent cat facts api that can be found @ https://alexwohlbruck.github.io/
 
 
-### Description
 * In this Skill-based Assessment, you will be creating a small website and you get to pick what is the website about. The main purpose of this SBA is to test your skills in implementing a clean HTML structure that follows the methodologies of visual design, and styling your site so that it is user-friendly.
 
 * You have the entire day for this SBA. Make sure to check in with your instructor for approval of your idea. Your work will be graded based on the below technical requirements. Also, creativity always works in your favor.
@@ -11,17 +16,6 @@
 
 * Once you got your idea, think in the user’s perspective when creating the website.  You like your users to have a good experience when interacting with your site. This gives you a better chance of users trusting your site and coming back for more. For this SBA, don’t worry too much about the content. There are many places you can get free content to display on your site. Concentrate more on the web site's structure and grid system.
 
-
-* Some resources for free content:
-  * Photos: `https://www.pexels.com/search/template/`
-  * Text: `https://www.lipsum.com/`
-  * GIFs: `https://www.motionelements.com/stock-image-10116013-business-and-startup-4k`
-
-* Useful API sites:
-  * https://rapidapi.com/ (Links to an external site.)
-  * https://any-api.com/ (Links to an external site.)
-  * https://github.com/toddmotto/public-apis#public-apis- (Links to an external site.)
-  * https://apilist.fun/
 
 ### Deliverable:
 * A theme for your site that you feel comfortable with
