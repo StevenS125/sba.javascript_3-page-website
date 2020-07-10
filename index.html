@@ -16,6 +16,13 @@
 
   <!-- Import Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <style>
+
+    .formContainer h2 {
+      text-align: center;
+    }
+
+  </style>
 
 </head> <!-- header ends here -->
 
@@ -49,9 +56,47 @@
         <div><button class="btn btn-primary animate__animated animate__fadeInLeftBig" onclick=addMoreFacts()>Click For More Dog and Cat Facts</button></div>
         <img  class="heroImg animate__animated animate__fadeInUp" src="https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="cat and dog background" />
       </div>
+      <div style="width:50%" class="tableContainer">
+        <table>
+          <tr>
+            <th>Total Cat Facts</th>
+            <th>Total Dog Facts</th>
+          </tr>
+          <tr>
+            <td id="catColumn"></td>
+            <td id="dogColumn"></td>
+          </tr>
+        </table>
+      </div>
     <div class="grid-container">
     </div>
     </main>
+
+    <div class="formContainer">
+    <h2>Sign Up for Our Animal Facts Newsletter!</h2>
+    <form >
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault01">Name</label>
+          <input type="text" class="form-control" id="validationDefault01" value="" placeholder="Please Enter Full Name" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault02">Email Address</label>
+          <input type="text" class="form-control" id="validationDefault02" value="" placeholder="Please Enter Email Address" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label>
+        </div>
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+    </div>
 
   </div>
 

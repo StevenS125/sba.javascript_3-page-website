@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -15,6 +19,10 @@
     height: 500px;
     width: auto;
 }
+
+.container-fluid {
+    color:#037bfe;
+  }
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -82,6 +90,17 @@ footer .section-title {
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
+
+.formContainer {
+    width: 60%;
+    margin: 20px 20%;
+}
+.tableContainer {
+    width: 40%;
+    margin: 0 30% 0 30%;
+    font-size: 32px;
+}
+
 
 @media (max-width:767px){
 	#footer h5 {
